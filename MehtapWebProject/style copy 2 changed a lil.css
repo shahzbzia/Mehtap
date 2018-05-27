@@ -1,0 +1,431 @@
+body{
+    font-family: sans-serif;
+    background-color: #d0d0d0;
+    font-size: 100%;
+}
+#wrapper{
+    max-width: 940px;
+    margin: 0 auto;
+    background-color: white;
+}
+header{
+    padding-top: 0.0625rem;
+}
+.logo{
+    max-height: 225px;
+    width: 37.23404255319149%;
+    margin: 1.25rem;
+}
+.icon:hover{
+    background-position: 0 39px;
+}
+.icon:active{
+    background-position: 0 0px;
+}
+.icon{
+    height: 38px;
+    width: 4.042553191489362%;
+    background-image: url(fb%20logo%20fixed1.png);
+    background-position: 0 0;
+    max-height: 39px;
+    margin-bottom: 2.5rem;
+}
+.icon1{
+    max-height: 45px;
+    margin-bottom: 38px;
+    height: 37px;
+    width: 4.148936170212766%;
+    background-image: url(Takeaway%20logo%20fixed%201.png);
+    background-position: 0 0;
+}
+.icon1:hover{
+    background-position: 0 42px;
+}
+.icon1:active{
+    background-position: 0 0px;
+}
+.icon2{
+    max-height: 45px;
+    margin-bottom: 38px;
+    display: block;
+    height: 39px;
+    width: 4.042553191489362%;
+    background-image: url(instragram%20logo0%20fixed1.png);
+    background-position: 0 0;
+}
+.icon2:hover{
+    background-position: 0 39px;
+}
+.icon2:active{
+    background-position: 0 0px;
+}
+.icon3{
+    max-height: 34px;
+    margin-bottom: 38px;
+    display: block;
+    height: 38px;
+    width: 4.042553191489362%;
+    background-image: url(tatter%20fixed1.png);
+    background-position: 0 0;
+}
+.icon3:hover{
+    background-position: 0 34px;
+}
+.icon3:active{
+    background-position: 0 0px;
+}
+#f{
+    margin-left: 237px;
+}
+#s{
+    margin-left: 4px;
+}
+#t{
+    margin-left: 7px;
+}
+#v{
+    margin-left: 7px;
+}
+header > figure > container{
+    display: flex;
+}
+.social{
+    margin-left: 380px;
+    margin-top: -148px;
+}
+
+Mid{
+    color: black;
+}
+.adress{
+    margin-top: 43px;
+    margin-left: -170px;
+    font-size: 1.1rem;
+}
+.num{
+    margin-top: -23px;
+    margin-left: -170px;
+    font-size: 1.1rem;
+}
+header > nav{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+header > nav > ul > li > a{
+    text-decoration: none;  
+    font-family: impact;
+    font-size: 1.1rem;
+}
+header > nav > ul > li{
+    list-style-type: none;
+    margin-left: 100px;
+}
+header ul{
+    display: flex;
+    margin-left: -5px;
+}
+header{
+    margin-bottom: 15px;
+}
+.main .active a, .main li>a:hover{
+    background-color: white;
+    color: rgba(180, 144, 63, 0.99);
+    background-color: black;
+    font-weight: #fffbold;
+    
+}
+Mid > section > h2{
+    font-family: Impact;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black; 
+    margin-bottom: 0px;
+}
+Mid > section > p{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    width: 74.46808510638298%;
+    margin-left: 120px;
+    
+}
+.div1 img{
+    height: 200px;
+    margin: 15px 0 15px 130px;
+}
+.div1 h4{
+    font-family: Impact;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: -200px;
+    text-decoration: none;
+    color: black;
+    padding-right: 0px;
+}
+.div1{
+    width: 50.17021276595745%;
+}
+.div1 p{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin-left: 330px;  
+    margin-top: -10px;
+}
+.div2 img{
+    height: 200px;
+    margin: 15px 0 15px 600px
+}
+.div2 h4{
+    font-family: Impact;
+    text-align: center;
+    margin-left: 345px;
+    margin-top: -200px;
+    text-decoration: none;
+    color: black;
+    padding-right: 0px;
+}
+.div2{
+    max-width: 50%;
+}
+.div2 p{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin-left: 130px;  
+    margin-top: -10px;
+}
+.div3 img{
+    height: 200px;
+    margin: 15px 0 15px 130px
+}
+.div3 h4{
+    font-family: Impact;
+    text-align: center;
+    margin-left: 550px;
+    margin-top: -200px;
+    text-decoration: none;
+    color: black;
+    padding-right: 0px;
+}
+.div3{
+    max-width: 50%;
+}
+.div3 p{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    margin-left: 330px;  
+    margin-top: -10px;
+}
+.div4{
+    margin-top: 40px;
+    display: flex;
+    margin-right: 0px;
+}
+.div5{
+    margin-left: 470px;
+}
+#h51{
+    font-family: Impact;
+    color: black;
+    margin: 120px 0px 0px 165px;
+    text-decoration: none;
+}
+a{
+    text-decoration: none !important;
+}
+#h52{
+    margin: -150px 0 0 -285px;
+    color: black;
+    font-family: Impact;
+    
+}
+#h53{
+    font-family: Impact;
+    color: black;
+    margin: 130px 0px 0px 185px;
+}
+.div6{
+    margin-top: 115px;
+    display: flex;
+    margin-right: 0px;
+}
+footer div{
+    background-color: black;
+    margin-top: 130px;
+    height: 40px;
+}
+footer h4{
+    padding-top: 5px;
+    font-family: Impact;
+    margin-left: 440px;
+    color: white;    
+}
+footer figure{
+    margin-left: 155px;
+}
+footer p{
+    margin: -30px 0 0 440px;
+    padding-bottom: 7px;
+}
+.volgons{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.soepen{
+    margin-left: 135px;
+    margin-bottom: -110px;
+}
+.ondertitel{
+    font-family: Impact;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    margin-bottom: 0px;
+}
+.broodjes{
+    margin-left: 165px;
+    margin-bottom: -110px;
+}
+.ondertitel1{
+    margin-top: 120px;
+    font-family: Impact;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+}
+.schotel{
+    margin-left: 183px;
+    margin-bottom: -110px;
+}
+.Pizza{
+    margin-left: 183px;
+    margin-bottom: -110px;
+}
+.nagerechten{
+    margin-left: 135px;
+    margin-bottom: -110px;
+}
+.dranken{
+    margin-left: 215px;
+    margin-bottom: -110px;
+}
+.menu{
+    font-family: Impact;
+    color: black;
+    margin: 10px 0px 10px 450px;
+    text-decoration: none;
+}
+.menulist1{
+    font-family: Impact;
+    color: black;
+    margin: -300px 0px 180px 0px;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    width: 100%;
+    text-align: center;
+}
+.menuimage1{
+    margin-bottom: 0px;
+    padding-bottom: 75px;
+}
+.galleryf{
+    background-color: black;
+    margin-top: 20px;
+    height: 40px;
+}
+h2{
+    font-family: Impact;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    margin-bottom: 15px;
+}
+Mid p{
+    font-family: sans-serif;
+    text-align: center;
+    margin: 0px;
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: black;
+    width: 74.46808510638298%;
+    margin-left: 120px;
+}
+.form{
+    margin-left: 400px;
+}
+.form div{
+    margin-bottom: 10px;
+}
+.naam p, .aantalpersonen p, .email p, .dag p, .tijd p, .opmerking p{
+    font-family: sans-serif;
+    text-decoration: none;
+    color: black;
+    width: 0%;
+    margin-left: -60px;
+    margin-bottom: -24px;
+}
+
+#map{
+    width:100%;
+    height:400px;
+    margin-top: -10px;
+}
+table {
+    width:50%;
+    font-family: Impact;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 140px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 2px;
+    text-align: left;
+}
+table#t01 tr:nth-child(even) {
+    background-color: #eee;
+}
+table#t01 tr:nth-child(odd) {
+   background-color: #fff;
+}
+table#t01 th {
+    background-color: black;
+    color: white;
+}
+.contactadres{
+    margin-top: -275px;
+    margin-bottom: 70px;
+    
+}
+.contactadres p{
+    margin-bottom: 0px;
+    margin-left: 620px;
+    font-family: Impact;
+    text-align: left;   
+}

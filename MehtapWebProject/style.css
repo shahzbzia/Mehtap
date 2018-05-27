@@ -1,0 +1,245 @@
+body{
+    font-family: sans-serif;
+    background-color: #d0d0d0;
+}
+header{
+    padding-top: 1px;
+}
+.logo{
+    max-height: 190px;
+    max-width: 300px;
+}
+.icon:hover{
+    background-position: 0 39px;
+}
+.icon:active{
+    background-position: 0 0px;
+}
+.icon{
+    display: block;
+    height: 38px;
+    width: 38px;
+    background-image: url(fb%20logo%20fixed1.png);
+    background-position: 0 0;
+    max-height: 39px;
+    margin-bottom: 40px;
+}
+.icon1{
+    max-height: 45px;
+    margin-bottom: 38px;
+    display: block;
+    height: 37px;
+    width: 39px;
+    background-image: url(Takeaway%20logo%20fixed%201.png);
+    background-position: 0 0;
+}
+.icon1:hover{
+    background-position: 0 42px;
+}
+.icon1:active{
+    background-position: 0 0px;
+}
+.icon2{
+    max-height: 45px;
+    margin-bottom: 38px;
+    display: block;
+    height: 39px;
+    width: 38px;
+    background-image: url(instragram%20logo0%20fixed1.png);
+    background-position: 0 0;
+}
+.icon2:hover{
+    background-position: 0 39px;
+}
+.icon2:active{
+    background-position: 0 0px;
+}
+.icon3{
+    max-height: 34px;
+    margin-bottom: 38px;
+    display: block;
+    height: 38px;
+    width: 38px;
+    background-image: url(tatter%20fixed1.png);
+    background-position: 0 0;
+}
+.icon3:hover{
+    background-position: 0 34px;
+}
+.icon3:active{
+    background-position: 0 0px;
+}
+#f{
+    margin-left: 237px;
+}
+#s{
+    margin-left: 4px;
+}
+#t{
+    margin-left: 7px;
+}
+#v{
+    margin-left: 7px;
+}
+/*header > figure > container{
+    display: flex;
+}*/
+.social{
+    margin-left: 380px;
+    margin-top: -148px;
+}
+
+
+
+.mediaButtons{
+    margin-top: 40px;    
+}
+
+.num{
+    margin-top: -15px;   
+}
+
+.headerText{
+    margin-top: -30px;
+    font-size: 1.1em;
+}
+
+
+header{
+    margin-bottom: 15px;
+}
+.navbar li a:hover{
+    color: rgba(180, 144, 63, 0.99);
+    font-weight: #fffbold;
+    
+}
+Mid > section > h2{
+    font-family: Impact;
+    text-align: center;
+    margin-top: 15px;
+    text-decoration: none;
+    color: black; 
+    margin-bottom: 0px;
+}
+
+.div1 img{
+    height: 200px;
+}
+.div1 h4{
+    font-family: Impact;
+}
+.div1 p{
+    font-family: sans-serif;
+}
+
+.div4{
+    margin-top: 40px;
+    display: flex;
+    margin-right: 0px;
+}
+.div5{
+    margin-left: 470px;
+}
+#h51{
+    font-family: Impact;
+    margin-top: 120px;
+    color: black;
+
+}
+a{
+    text-decoration: none !important;
+}
+footer {
+    background-color: black;
+}
+footer{
+    padding-top: 5px;
+    font-family: Impact;
+    color: white;    
+}
+.row{
+    background-color: w
+}
+
+.volgons{
+    display: flex;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+.soepen{
+    margin-left: 135px;
+    margin-bottom: -110px;
+}
+.ondertitel{
+    font-family: Impact;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    margin-bottom: 0px;
+}
+.broodjes{
+    margin-left: 165px;
+    margin-bottom: -110px;
+}
+.ondertitel1{
+    margin-top: 120px;
+    font-family: Impact;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+}
+.schotel{
+    margin-left: 183px;
+    margin-bottom: -110px;
+}
+.Pizza{
+    margin-left: 183px;
+    margin-bottom: -110px;
+}
+.nagerechten{
+    margin-left: 135px;
+    margin-bottom: -110px;
+}
+.dranken{
+    margin-left: 215px;
+    margin-bottom: -110px;
+}
+.menu{
+    font-family: Impact;
+    color: black;
+    margin: 10px 0px 10px 450px;
+    text-decoration: none;
+}
+.menulist{
+    font-family: Impact;
+    color: black;
+}
+.menuimage{
+    width: 100%;
+}
+.galleryf{
+    background-color: black;
+    margin-top: 20px;
+    height: 40px;
+}
+h2{
+    font-family: Impact;
+    text-align: center;
+    text-decoration: none;
+    color: black; 
+    margin-bottom: 15px;
+}
+Mid p{
+    font-family: sans-serif;
+    margin-bottom: 15px;
+}
+
+form{
+    margin-bottom: 25px;
+}
+
+#map{
+    width:100%;
+    height:400px;
+    margin-bottom: 25px;
+}

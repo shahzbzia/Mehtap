@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>MEHTTAP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+     <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body class="container-fluid">
+   <div id="wrapper">
+    <header>
+    <figure class="row">
+           <container class="col-lg-5 col-md-5 col-sm-5 col-xs-12">
+              <a href="Index.html"><img class="logo" src="Mehtap.png"></a>
+           </container>
+           <container class="col-lg-7 col-md-7 col-sm-7 hidden-xs mediaButtons">
+             <div class="row">
+              <div class="col-lg-1 col-md-1 col-sm-2 pull-right">
+                  <a class="icon" href="https://www.facebook.com"></a>
+              </div>
+              <div class="col-lg-1 col-md-1 col-sm-2  pull-right">
+                  <a class="icon1" href="https://www.takeaway.com/belgium/en/mehtap"></a>
+              </div>
+               <div class="col-lg-1 col-md-1 col-sm-2  pull-right">
+                 <a class="icon2" href="https://www.instagram.com/?hl=en"></a>  
+               </div>
+               <div class="col-lg-1 col-md-1 col-sm-2  pull-right">
+                   <a class="icon3" href="https://www.twitter.com"></a>
+               </div>
+               </div>
+               <div class="row  col-lg-4 col-md-4 col-sm-8 pull-right headerText text-center">
+               <div>
+                   <p class="adress">Gallifortlei 47 2100 Deurne</p>     
+                   <p class="num">03 294 75 22</p>
+               </div>
+           </div>
+           
+           </container>
+           
+           
+    </figure> 
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse" aria-expanded="false" style="height: 1px;">
+          <ul class="nav navbar-nav">
+            <li ><a href="Index.html">HOME</a></li>
+            <li ><a href="Menu.html">MENU</a></li>
+            <li ><a href="Gallery.html">GALLERIJ</a></li>
+            <li ><a href="Reserveren.html">RESERVEREN</a></li>
+            <li class="active"><a href="Contact.html">CONTACT</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    </header>
+    
+    <Mid>
+      <h2>CONTACT</h2>
+       <div id="map"></div>
+
+        <script>
+            function myMap() {
+            var myCenter = new google.maps.LatLng(51.221473,4.461876);
+            var mapCanvas = document.getElementById("map");
+            var mapOptions = {center: myCenter, zoom: 18};
+            var map = new google.maps.Map(mapCanvas, mapOptions);
+            var marker = new google.maps.Marker({position:myCenter});
+            marker.setMap(map);
+            }
+        </script>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDr9COO4roRmJVN6OiQEfvfR0HTZUHiKZo&callback=myMap"></script>
+       <div class="container">
+       <div class="row text-center">
+       <div class="col-lg-7 col-md-7 col-sm-7">
+        <table class="table table-hover table-striped">
+          <tr>
+            <td>MANDAG</td>
+            <td>GESLOTEN</td>
+          </tr>
+          <tr>
+            <td>DINSDAG</td>
+            <td>4:00 PM – 11:00 PM </td>
+          </tr>
+          <tr>
+            <td>WOENSDAG</td>
+            <td>4:00 PM – 11:00 PM </td>
+          </tr>
+          <tr>
+            <td>DONDERDAG</td>
+            <td>4:00 PM – 11:00 PM </td>
+          </tr>
+          <tr>
+            <td>VRIJDAG</td>
+            <td>4:00 PM – 11:00 PM </td>
+          </tr>
+          <tr>
+            <td>ZATERDAG</td>
+            <td>4:00 PM – 12:00 PM </td>
+          </tr>
+          <tr>
+            <td>ZONDAG</td>
+            <td>4:00 PM – 12:00 PM </td>
+          </tr>
+        </table>
+         </div>
+          
+          <div class="col-lg-5 col-md-5 col-sm-5">
+           <div class="jumbotron">
+           <h2>MEHTAP</h2>
+           <p>Gallifortlei 47 2100 Deurne</p>
+           <p>TEL: 03 294 75 22</p>
+           <p>Email: mehtap@gmail.com</p>
+           </div>
+           </div>
+           </div>
+           </div>
+    </Mid>
+    
+    
+       <footer class="text-center">
+       <div>
+           <h4>VOLG ONS</h4>
+       </div>
+      
+             <div class="row">
+             <div class="col-lg-6 col-md-6 col-sm-10 col-lg-push-5 col-md-push-5 col-sm-push-3 col-xs-push-1">
+              <div class="col-lg-1 col-md-1 col-sm-2 col-xs-3">
+                  <a class="icon" href="https://www.facebook.com"></a>
+              </div>
+              <div class="col-lg-1 col-md-1 col-sm-2 col-xs-3">
+                  <a class="icon1" href="https://www.takeaway.com/belgium/en/mehtap"></a>
+              </div>
+               <div class="col-lg-1 col-md-1 col-sm-2 col-xs-3">
+                 <a class="icon2" href="https://www.instagram.com/?hl=en"></a>  
+               </div>
+               <div class="col-lg-1 col-md-1 col-sm-2  col-xs-3">
+                   <a class="icon3" href="https://www.twitter.com"></a>
+               </div>
+               </div>
+               </div>
+               
+           
+        <p>© MEHTAP</p>   
+    </footer>
+   </div>
+
+</body>
+</html>
